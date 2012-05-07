@@ -1,4 +1,5 @@
 Create DOM trees with less typing.
 
-This utility provides a couple of functions and a jQuery extension to make construction of
-DOM trees in JavaScript a bit faster and more natural.
+This utility provides a couple of functions and a jQuery extension
+to make construction of DOM trees in JavaScript a bit faster and 
+more natural.
