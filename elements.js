@@ -4,7 +4,7 @@ Create a new jquery node.
 E(
     <elementname>,
     [<class names>]
-    [children: a DOMElement, jQuery node, TextNode or an array of objects of these types]
+    [children: a DOMElement, jQuery node, TextNode or an array these]
 )
 
 Example:
@@ -26,7 +26,7 @@ Can be expressed in html like so:
 </div>
 
 A null passed where a child is expected will be ignored allowing
-conditional structures in an element building chain like so:
+conditional structures in argument lists:
 
 var name = {
     first: 'Foo',
@@ -76,7 +76,7 @@ function E()
 
 
 /*
-Create a jquery text node.
+Create a jquerylist containing a single text node.
 */
 function T(s)
 {
@@ -85,7 +85,7 @@ function T(s)
 
 
 /*
-A jQuery extension that appends a list of elements to a selection.
+A jQuery extension that appends an array of elements to a selection.
 
 Example:
 
